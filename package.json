@@ -1,0 +1,29 @@
+{
+  "name": "okportfolio",
+  "version": "1.0.0",
+  "description": "Omkar's website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "prettier": "prettier -write .",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "Omkar Kirpan",
+  "license": "MIT",
+  "dependencies": {
+    "@chakra-ui/react": "^2.2.4",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "framer-motion": "^6.5.1",
+    "next": "^12.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.20.0",
+    "eslint-config-next": "^12.2.3",
+    "prettier": "^2.7.1"
+  }
+}
