@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { Box, Container } from '@chakra-ui/react'
+import NavBar from '../navbar'
 
 const Main = ({ children, router }) => {
   return (
@@ -8,6 +9,8 @@ const Main = ({ children, router }) => {
         <meta name="viewport" contents="width=device-width, initial-scale=1" />
         <title>Omkar Kirpan - Homepage</title>
       </Head>
+
+      <NavBar path={router.asPath} />
 
       <Container maxW="container.md" pd={14}>
         {children}
