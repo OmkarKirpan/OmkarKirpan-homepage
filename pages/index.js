@@ -5,6 +5,8 @@ import {
   Image,
   useColorModeValue
 } from '@chakra-ui/react'
+import Section from '../components/section'
+
 const Page = () => {
   return (
     <Container>
@@ -44,6 +46,18 @@ const Page = () => {
           />
         </Box>
       </Box>
+
+      <Section delay={0.1}>
+        <Heading as="h3" variant="section-title">
+          Work
+        </Heading>
+        <p>
+          Omkar is a freelance and a full-stack developer based in India with a
+          passion for building digital services/stuff he wants. He has a knack
+          for all things launching products, from planning and designing all the
+          way to solving real-life problems with code.
+        </p>
+      </Section>
     </Container>
   )
 }
