@@ -1,10 +1,13 @@
+import NextLink from 'next/link'
 import {
   Container,
   Box,
   Heading,
+  Button,
   Image,
   useColorModeValue
 } from '@chakra-ui/react'
+import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
 import Section from '../components/section'
 
@@ -58,6 +61,14 @@ const Page = () => {
           for all things launching products, from planning and designing all the
           way to solving real-life problems with code.
         </Paragraph>
+
+        <Box align="center" my={4}>
+          <NextLink href="/posts" passHref scroll={false}>
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+              My Portfolio
+            </Button>
+          </NextLink>
+        </Box>
       </Section>
     </Container>
   )
