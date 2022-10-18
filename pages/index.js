@@ -63,7 +63,11 @@ const Page = () => {
         </Paragraph>
 
         <Box align="center" my={4}>
-          <NextLink href="/posts" passHref scroll={false}>
+          <NextLink
+            href="https://github.com/OmkarKirpan/omkarkirpan.github.io/raw/master/omkar%20resume%2058.pdf"
+            passHref
+            scroll={false}
+          >
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               My Portfolio
             </Button>
