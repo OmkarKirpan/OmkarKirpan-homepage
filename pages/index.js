@@ -10,6 +10,7 @@ import {
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
 import Section from '../components/section'
+import { BioSection, BioYear } from '../components/bio'
 
 const Page = () => {
   return (
@@ -73,6 +74,46 @@ const Page = () => {
             </Button>
           </NextLink>
         </Box>
+      </Section>
+
+      <Section delay={0.2}>
+        <Heading as="h3" variant="section-title">
+          Bio
+        </Heading>
+        <BioSection>
+          <BioYear>1996</BioYear>
+          Born in Nagpur, India.
+        </BioSection>
+        <BioSection>
+          <BioYear>2017</BioYear>
+          Completed the Bachelor of Engineering Program (Computer Science &
+          Engineering) at Rajiv Gandhi College of Engineering and Research in
+          Nagpur, India.
+        </BioSection>
+        <BioSection>
+          <BioYear>2018</BioYear>
+          Worked at UNI (Uniegis Network Private Limited), Delhi, India.
+        </BioSection>
+        <BioSection>
+          <BioYear>2018</BioYear>
+          Worked at Noviga Automation Pvt Ltd., Pune, India.
+        </BioSection>
+        <BioSection>
+          <BioYear>2020</BioYear>
+          Worked at Greenway Grameen Infra Pvt. Ltd., Bangalore, India.
+        </BioSection>
+        <BioSection>
+          <BioYear>2020 to present</BioYear>
+          Worked at Mobile Programming LLC, Bangalore, India.
+        </BioSection>
+        <BioSection>
+          <BioYear>2020 to present</BioYear>
+          Worked at IBM, Bangalore, India.
+        </BioSection>
+        <BioSection>
+          <BioYear>2020 to present</BioYear>
+          Worked at ANZ, Bangalore, India.
+        </BioSection>
       </Section>
     </Container>
   )
