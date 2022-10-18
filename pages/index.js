@@ -104,15 +104,15 @@ const Page = () => {
         </BioSection>
         <BioSection>
           <BioYear>2020 to present</BioYear>
-          Worked at Mobile Programming LLC, Bangalore, India.
+          Working at Mobile Programming LLC, Bangalore, India.
         </BioSection>
         <BioSection>
           <BioYear>2020 to present</BioYear>
-          Worked at IBM, Bangalore, India.
+          Working at IBM, Bangalore, India.
         </BioSection>
         <BioSection>
           <BioYear>2020 to present</BioYear>
-          Worked at ANZ, Bangalore, India.
+          Working at ANZ, Bangalore, India.
         </BioSection>
       </Section>
     </Container>
